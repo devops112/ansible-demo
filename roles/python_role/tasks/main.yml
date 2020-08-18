@@ -1,0 +1,11 @@
+    - name: Install all packakges of python
+      apt:
+        name:
+        - python
+        - python-setuptools
+        - python-dev
+        - build-essential
+        - python-pip
+        - python-mysqldb
+        state: latest
+        update_cache: yes

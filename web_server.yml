@@ -1,0 +1,7 @@
+- name: ping the servers
+  hosts: all
+  roles:
+  - python_role
+  - db_role
+  - web_role
+  - mail_role

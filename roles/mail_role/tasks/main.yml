@@ -1,0 +1,11 @@
+  - mail:
+     host: smtp.gmail.com
+     port: 587
+     secure: starttls
+     charset: utf-8
+     sender: vaibhavl1123456@gmail.com
+     username: vaibhavl1123456@gmail.com
+     password: Dec@2019
+     to: 'vaibhav.tiwari6@gmail.com'
+     subject: I DID IT.
+    ignore_errors: yes
